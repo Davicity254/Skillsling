@@ -1,0 +1,40 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#000000"/>
+  
+  <!-- Slingshot left arm -->
+  <path d="M 350 200 Q 320 250 320 350 L 320 700" 
+        stroke="#1E5A8E" stroke-width="60" fill="none" stroke-linecap="round"/>
+  <path d="M 350 200 Q 320 250 320 350 L 320 700" 
+        stroke="#2E7AB8" stroke-width="45" fill="none" stroke-linecap="round"/>
+  
+  <!-- Slingshot right arm -->
+  <path d="M 350 200 Q 380 250 380 350 L 380 700" 
+        stroke="#1E5A8E" stroke-width="60" fill="none" stroke-linecap="round"/>
+  <path d="M 350 200 Q 380 250 380 350 L 380 700" 
+        stroke="#2E7AB8" stroke-width="45" fill="none" stroke-linecap="round"/>
+  
+  <!-- Slingshot Y-shape base -->
+  <path d="M 320 700 Q 350 750 350 800 Q 350 750 380 700" 
+        stroke="#1E5A8E" stroke-width="60" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 320 700 Q 350 750 350 800 Q 350 750 380 700" 
+        stroke="#2E7AB8" stroke-width="45" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Elastic band -->
+  <line x1="320" y1="350" x2="550" y2="300" 
+        stroke="#FFA726" stroke-width="25" stroke-linecap="round"/>
+  <line x1="380" y1="350" x2="550" y2="300" 
+        stroke="#FFA726" stroke-width="25" stroke-linecap="round"/>
+  
+  <!-- Projectile (orange ball) -->
+  <circle cx="750" cy="200" r="120" fill="#FFA726"/>
+  <circle cx="750" cy="200" r="110" fill="#FFB74D"/>
+  
+  <!-- Speed lines -->
+  <line x1="250" y1="450" x2="200" y2="450" 
+        stroke="#2E7AB8" stroke-width="15" stroke-linecap="round" opacity="0.6"/>
+  <line x1="250" y1="500" x2="180" y2="500" 
+        stroke="#2E7AB8" stroke-width="15" stroke-linecap="round" opacity="0.6"/>
+  <line x1="250" y1="550" x2="200" y2="550" 
+        stroke="#2E7AB8" stroke-width="15" stroke-linecap="round" opacity="0.6"/>
+</svg>
