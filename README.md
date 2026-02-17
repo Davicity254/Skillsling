@@ -56,8 +56,47 @@ npx expo start
 
 ## 📄 License
 
-Educational project - Moringa School Capstone
+Educational project - Moringa School GenAI Capstone
+
+---
+
+## 🎓 Learning Outcomes
+
+This project demonstrates:
+
+**Mobile Development Skills:**
+- React Native mobile architecture and component patterns
+- Expo development platform and tooling
+- Cross-platform mobile development (iOS + Android)
+- Mobile navigation patterns (Stack, Tab navigators)
+- Device API integration (camera, location, storage)
+- Mobile performance optimization
+
+**Backend Integration:**
+- Firebase Authentication for mobile apps
+- Firestore real-time database with mobile SDK
+- Cloud Storage for mobile media uploads
+- Mobile security rules and permissions
+
+**AI-Assisted Learning:**
+- Used GenAI to accelerate learning from zero to production-ready app
+- Reduced learning time from ~2 weeks to ~2 days (5-6x productivity gain)
+- AI-assisted debugging and problem-solving
+- Effective prompt engineering for technical learning
+
+**Development Workflow:**
+- Mobile debugging techniques
+- Testing on physical devices
+- Peer testing and iteration
+- Documentation and knowledge sharing
+
+**Key Achievement:** Built a production-ready mobile application from zero mobile experience using AI-assisted learning methodology.
+
+---
 
 ## 👤 Author
 
 [Davicity254](https://github.com/Davicity254)
+
+**Project Type:** Moringa School GenAI Capstone - Mobile Development Track  
+**Focus:** Learning mobile development ecosystem using AI-assisted methodology
