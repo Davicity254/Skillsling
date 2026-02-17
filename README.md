@@ -60,6 +60,37 @@ Educational project - Moringa School GenAI Capstone
 
 ---
 
+## 🎓 Learning Context
+
+This project was built as part of the **Moringa School GenAI Capstone** to learn a completely new technology using generative AI.
+
+**Before starting this project,** I had experience with HTML, CSS, and basic JavaScript for web development, but I had **never built a mobile application** or used React Native, Expo, or Firebase.
+
+**Generative AI tools were used throughout the learning process to:**
+- Understand how React Native works
+- Set up the Expo development environment
+- Connect the app to Firebase Authentication and Firestore
+- Debug configuration and runtime errors
+- Understand mobile navigation and component structure
+
+**This project represents my transition from web development into mobile development using AI-assisted learning.**
+
+### Reflection on GenAI Use
+
+Using AI significantly accelerated my learning process.
+
+Instead of spending days searching through documentation, I used targeted prompts to:
+- Get step-by-step setup guidance
+- Understand unfamiliar concepts like Firestore real-time listeners
+- Resolve Expo and Firebase errors quickly
+- Structure the project architecture
+
+**AI did not replace learning — it supported it.** I still had to implement, test, and debug the application myself.
+
+This approach allowed me to move from zero experience in React Native to a fully working mobile application within the capstone timeline.
+
+---
+
 ## 🤖 Use of Generative AI
 
 This project was built using **AI-assisted learning methodology** as part of the Moringa School GenAI Capstone.

@@ -15,6 +15,10 @@
 
 **My Background Before This Project:**
 
+This project was built as part of the **Moringa School GenAI Capstone** to learn a completely new technology using generative AI.
+
+**Before starting this project,** I had experience with HTML, CSS, and basic JavaScript for web development, but I had **never built a mobile application** or used React Native, Expo, or Firebase.
+
 ✅ **What I Knew:**
 - HTML/CSS/JavaScript for web development
 - Basic React for web applications (components, hooks, state management)
@@ -29,6 +33,29 @@
 - Mobile UI/UX paradigms
 - Cross-platform mobile development (iOS + Android simultaneously)
 - Mobile debugging and testing workflows
+
+**Generative AI tools were used throughout the learning process to:**
+- Understand how React Native works
+- Set up the Expo development environment
+- Connect the app to Firebase Authentication and Firestore
+- Debug configuration and runtime errors
+- Understand mobile navigation and component structure
+
+**This project represents my transition from web development into mobile development using AI-assisted learning.**
+
+### Reflection on GenAI Use
+
+Using AI significantly accelerated my learning process.
+
+Instead of spending days searching through documentation, I used targeted prompts to:
+- Get step-by-step setup guidance
+- Understand unfamiliar concepts like Firestore real-time listeners
+- Resolve Expo and Firebase errors quickly
+- Structure the project architecture
+
+**AI did not replace learning — it supported it.** I still had to implement, test, and debug the application myself.
+
+This approach allowed me to move from zero experience in React Native to a fully working mobile application within the capstone timeline.
 
 **This project represents genuine NEW learning** - I had zero mobile development experience and relied entirely on AI-assisted learning to bridge the gap from web development to mobile development.
 
