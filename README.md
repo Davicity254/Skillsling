@@ -1,94 +1,63 @@
-# SkillSling - Service Marketplace App
+# Skillsling - Service Marketplace App
 
-Find local services or offer your skills to customers nearby.
+A React Native + Expo mobile application connecting service providers with customers.
 
-## Features
+[![React Native](https://img.shields.io/badge/React%20Native-0.76-blue.svg)](https://reactnative.dev/)
+[![Expo](https://img.shields.io/badge/Expo-54.0-black.svg)](https://expo.dev/)
+[![Firebase](https://img.shields.io/badge/Firebase-11.1-orange.svg)](https://firebase.google.com/)
 
-✅ User registration (Customer or Service Provider)
-✅ Switch between customer/provider modes anytime
-✅ Browse services by category (Salons, Barbers, Shops, etc.)
-✅ Location-based service discovery
-✅ Upload photos, videos, resume
-✅ Add external portfolio links
-✅ Chat assistant to find services quickly
-✅ Service pricing and distance display
+## 🚀 Quick Start
 
-## Tech Stack
+```bash
+# Clone the repository
+git clone https://github.com/Davicity254/Skillsling.git
+cd Skillsling
 
-- **React Native (Expo)** - Cross-platform mobile framework
-- **JavaScript** - Programming language
-- **Firebase** - Backend (Auth, Firestore, Storage)
-- **Expo Location** - GPS for nearby services
-- **Expo Image Picker** - Media uploads
+# Install dependencies
+npm install
 
-## Setup Instructions
+# Start the development server
+npx expo start
 
-1. Install Node.js from nodejs.org
-2. Install Expo CLI:
-   ```
-   npm install -g expo-cli
-   ```
+# Scan QR code with Expo Go app on your phone
+```
 
-3. Install dependencies:
-   ```
-   npm install
-   ```
+## 📱 Features
 
-4. Setup Firebase:
-   - Go to firebase.google.com
-   - Create a new project
-   - Enable Authentication (Email/Password)
-   - Create Firestore database
-   - Enable Storage
-   - Copy your config to App.js
+- **Authentication** - Email/password login, Google Sign-In ready
+- **Service Listings** - Create, browse, and search services
+- **Real-time Chat** - Instant messaging with unread badges
+- **Bookings** - Request and manage service bookings
+- **Reviews** - 5-star ratings and written reviews
+- **Location-based** - Filter services by GPS location (192 countries)
+- **Media Upload** - Photos and videos for services
+- **6 Themes** - Customizable color schemes
+- **Profile Management** - Edit info, upload photos, switch roles
 
-5. Run the app:
-   ```
-   npm start
-   ```
-   Then scan QR code with Expo Go app on your phone
+## 🛠️ Tech Stack
 
-## How to Make Money
+- React Native + Expo SDK 54
+- Firebase (Auth, Firestore, Storage)
+- React Navigation
+- Expo Image Picker, Location, Video
 
-### 1. Commission Model (15-20%)
-Take a percentage from each transaction between customer and provider
+## 📖 Documentation
 
-### 2. Subscription Plans
-- **Free**: Basic listing
-- **Pro ($9.99/month)**: Featured listings, unlimited photos
-- **Business ($29.99/month)**: Priority placement, analytics
+- **Complete Guide:** [PROJECT-DOCUMENTATION.md](PROJECT-DOCUMENTATION.md)
+- **Moringa Capstone:** [MORINGA-CAPSTONE-FINAL.md](MORINGA-CAPSTONE-FINAL.md)
 
-### 3. Featured Listings
-Charge providers $5-20 to appear at top of search results
+## 🔧 Setup
 
-### 4. Advertising
-Show ads to free users, remove ads for premium subscribers
+1. Create Firebase project at https://console.firebase.google.com
+2. Enable Authentication, Firestore, and Storage
+3. Copy config to `src/config/firebase.js`
+4. Install Expo Go app on your phone
+5. Run `npx expo start` and scan QR code
 
-### 5. Booking Fees
-Charge $1-3 per booking made through the app
+## 📄 License
 
-### 6. Lead Generation
-Charge providers per customer inquiry/contact
+Educational project - Moringa School Capstone
 
-### 7. Premium Features
-- Verified badges ($10/month)
-- Video uploads ($5/month)
-- Advanced analytics ($15/month)
+## 👤 Author
 
-## Recommended Pricing Strategy
-
-Start with:
-- Free for customers (always)
-- Free basic listing for providers
-- 10% commission on transactions
-- $14.99/month for premium provider features
-
-## Next Steps
-
-1. Get Firebase credentials
-2. Test on your phone
-3. Add payment integration (Stripe/PayPal)
-4. Deploy to App Store & Google Play
-5. Market to local service providers
-
-Good luck! 🚀
+[Davicity254](https://github.com/Davicity254)

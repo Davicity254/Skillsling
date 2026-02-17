@@ -37,3 +37,7 @@ yarn-error.log*
 *.tmp
 *.temp
 nul
+
+# Git
+.git/
+node_modules
