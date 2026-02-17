@@ -60,11 +60,44 @@ Educational project - Moringa School GenAI Capstone
 
 ---
 
-## 🎓 Learning Outcomes
+## 🤖 Use of Generative AI
 
-This project demonstrates:
+This project was built using **AI-assisted learning methodology** as part of the Moringa School GenAI Capstone.
 
-**Mobile Development Skills:**
+**GenAI was used to:**
+- Learn React Native environment setup and configuration
+- Understand Firebase backend integration
+- Debug Expo and mobile-specific errors
+- Structure application architecture and navigation
+- Implement real-time features and mobile patterns
+- Accelerate learning from beginner to production-ready app
+
+**Productivity Impact:** AI reduced learning time from an estimated 2 weeks to 2 days (5-6x productivity gain).
+
+**AI Tools Used:** ai.moringaschool.com for guided learning prompts
+
+---
+
+## 🎓 Learning Context
+
+This project was built as part of an **AI-assisted learning capstone**. The goal was to learn mobile development using React Native, Expo, and Firebase with the help of generative AI prompts.
+
+**Before this project:**
+- ✅ Had experience with HTML/CSS/JavaScript for web development
+- ❌ Had NOT built a full mobile application
+- ❌ No experience with React Native or Expo
+- ❌ No knowledge of mobile architecture patterns
+
+**Learning Approach:**
+AI tools were used to guide setup, debugging, and architecture decisions. Every major technical decision was informed by AI-generated explanations and examples, allowing rapid progression from zero mobile experience to a functional production-ready app.
+
+**Key Learning:** Mobile development requires different thinking than web development - AI helped bridge that gap by providing contextual explanations tailored to my existing web development knowledge.
+
+---
+
+## 📊 Learning Outcomes
+
+**Mobile Development Skills Gained:**
 - React Native mobile architecture and component patterns
 - Expo development platform and tooling
 - Cross-platform mobile development (iOS + Android)
@@ -79,18 +112,36 @@ This project demonstrates:
 - Mobile security rules and permissions
 
 **AI-Assisted Learning:**
-- Used GenAI to accelerate learning from zero to production-ready app
-- Reduced learning time from ~2 weeks to ~2 days (5-6x productivity gain)
-- AI-assisted debugging and problem-solving
 - Effective prompt engineering for technical learning
+- Using AI to understand new technology domains
+- AI-assisted debugging and problem-solving
+- Iterative learning with AI feedback
 
-**Development Workflow:**
-- Mobile debugging techniques
-- Testing on physical devices
-- Peer testing and iteration
-- Documentation and knowledge sharing
+**Key Achievement:** Built a production-ready mobile application from zero mobile experience using AI-assisted learning methodology in 2 days (would normally take 2 weeks).
 
-**Key Achievement:** Built a production-ready mobile application from zero mobile experience using AI-assisted learning methodology.
+---
+
+## 💭 Reflection
+
+This project helped me transition from web development to mobile development. GenAI significantly reduced the time needed to understand setup, debug errors, and build a functional architecture.
+
+**What I Learned:**
+- Mobile development is fundamentally different from web development
+- AI can accelerate learning by providing contextual, targeted explanations
+- Real-time data patterns are crucial for modern mobile apps
+- Cross-platform development requires understanding platform differences
+
+**Impact of AI:**
+Without AI support, learning React Native and Firebase together would have taken significantly longer. AI acted as a mentor, providing immediate answers to questions, warning about common mistakes, and explaining complex concepts in terms I already understood.
+
+**Transferable Skills:**
+The AI-assisted learning methodology used in this project can be applied to learning any new technology. The key is asking the right questions and iterating based on AI feedback.
+
+---
+
+## 📄 License
+
+Educational project - Moringa School GenAI Capstone
 
 ---
 
@@ -99,4 +150,4 @@ This project demonstrates:
 [Davicity254](https://github.com/Davicity254)
 
 **Project Type:** Moringa School GenAI Capstone - Mobile Development Track  
-**Focus:** Learning mobile development ecosystem using AI-assisted methodology
+**Focus:** AI-assisted learning of mobile development ecosystem

@@ -207,8 +207,9 @@ First load takes ~30 seconds. After that, code changes auto-refresh (Fast Refres
 > "Explain React Native to a web developer who knows React but has never built a mobile app. What's different about mobile development?"
 
 **Curriculum Reference:** 
-- Module: AI Prompt Engineering → Guided Learning → Technical Concept Exploration
-- Topic: Using AI to understand new technology domains
+- **Module:** Moringa AI Prompt Engineering → Guided Learning → Technical Concept Exploration
+- **Topic:** Using AI to understand new technology domains
+- **Learning Objective:** Leverage AI to bridge knowledge gaps between familiar and unfamiliar technologies
 
 **AI Response Summary:** 
 The AI explained that React Native uses the same React patterns (components, hooks, state) but outputs native mobile components instead of HTML. Key differences: no DOM, different event system, mobile-specific lifecycle, platform-specific APIs, and navigation works completely differently (stack-based, not URL-based).
@@ -226,8 +227,9 @@ This was crucial - I understood I wasn't just "doing React on mobile" but learni
 > "I'm looking at a React Native app. Explain the file structure - what's different from a web React app? Where do screens go, how does navigation work, and where is Firebase initialized?"
 
 **Curriculum Reference:**
-- Module: AI Prompt Engineering → Code Understanding → Architecture Analysis
-- Topic: Using AI to navigate unfamiliar codebases
+- **Module:** Moringa AI Prompt Engineering → Code Understanding → Architecture Analysis
+- **Topic:** Using AI to navigate unfamiliar codebases
+- **Learning Objective:** Understand project structure and organization patterns in new frameworks
 
 **AI Response Summary:**
 The AI explained that mobile apps don't have routes/pages like web - they have screens wrapped in navigators. Firebase must initialize before any component renders (different from web where you can lazy-load). The `App.js` is the entry point, screens are in `src/screens/`, and navigation is declarative using `NavigationContainer`.
@@ -245,8 +247,9 @@ This gave me a mental map before touching code. Understanding that navigation is
 > "How do I connect a React Native Expo app to Firebase? Give me step-by-step instructions including what services to enable and where to paste the config."
 
 **Curriculum Reference:**
-- Module: AI Prompt Engineering → Guided Learning → Technical Setup Prompts
-- Topic: Using AI for environment configuration
+- **Module:** Moringa AI Prompt Engineering → Guided Learning → Technical Setup Prompts
+- **Topic:** Using AI for environment configuration and integration
+- **Learning Objective:** Configure external services and APIs using AI guidance
 
 **AI Response Summary:**
 The AI provided exact steps matching the Firebase console UI - creating the project, enabling services (Auth, Firestore, Storage), finding the web config, and explained the `initializeApp()` call. It also warned about the common "Firebase app already initialized" error and how to prevent it.
@@ -264,8 +267,9 @@ Firebase setup is notoriously confusing for beginners. The AI's step-by-step gui
 > "In mobile apps, when should I use Firestore's onSnapshot vs getDocs? Show me how to implement real-time listeners in React Native."
 
 **Curriculum Reference:**
-- Module: AI Prompt Engineering → Technical Decision Making → Pattern Selection
-- Topic: Using AI to choose appropriate technical approaches
+- **Module:** Moringa AI Prompt Engineering → Technical Decision Making → Pattern Selection
+- **Topic:** Using AI to choose appropriate technical approaches and best practices
+- **Learning Objective:** Understand when to use different technical patterns based on use case
 
 **AI Response Summary:**
 The AI explained that `getDocs` is a one-time fetch (like REST API) while `onSnapshot` sets up a real-time listener that fires on every data change. For mobile apps, real-time listeners are preferred because they keep the UI in sync without manual refreshing. It showed how to set up listeners in `useEffect` with proper cleanup to prevent memory leaks.
@@ -283,8 +287,9 @@ This was a genuine learning moment. The difference between one-time reads and li
 > "I get this error: FirebaseError: auth/invalid-api-key. What does this mean in a React Native context and how do I fix it?"
 
 **Curriculum Reference:**
-- Module: AI Prompt Engineering → Debugging → Error Resolution
-- Topic: Using AI as first responder for technical errors
+- **Module:** Moringa AI Prompt Engineering → Debugging → Error Resolution
+- **Topic:** Using AI as first responder for technical errors and troubleshooting
+- **Learning Objective:** Develop debugging skills using AI-assisted problem-solving
 
 **AI Response Summary:**
 The AI immediately identified that this error means the Firebase config in `src/config/firebase.js` has placeholder values or incorrect keys. It provided a checklist: (1) verify apiKey matches Firebase console exactly, (2) confirm using web SDK not admin SDK, (3) check Authentication is enabled in Firebase console.
@@ -302,8 +307,9 @@ Having AI as a first responder for errors was transformative. Instead of searchi
 > "What's the difference between Expo Go and a development build? When do I need each one for mobile development?"
 
 **Curriculum Reference:**
-- Module: AI Prompt Engineering → Guided Learning → Workflow Understanding
-- Topic: Using AI to understand development processes
+- **Module:** Moringa AI Prompt Engineering → Guided Learning → Workflow Understanding
+- **Topic:** Using AI to understand development processes and tooling decisions
+- **Learning Objective:** Learn professional development workflows and when to use different tools
 
 **AI Response Summary:**
 The AI explained that Expo Go is a pre-built app containing standard Expo SDK modules - perfect for development and testing. A development build is needed when you add custom native code not included in Expo Go. For learning and most apps, Expo Go is sufficient. Development builds are for advanced features or App Store submission.
