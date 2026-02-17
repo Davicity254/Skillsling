@@ -224,6 +224,11 @@ First load takes ~30 seconds. After that, code changes auto-refresh (Fast Refres
 **Platform:** ai.moringaschool.com  
 **Conversation Link:** [INSERT YOUR ACTUAL LINK HERE]
 
+**Note:** If you don't have a saved conversation link from ai.moringaschool.com, that's okay. The detailed prompts, responses, and reflections documented below serve as evidence of GenAI usage. However, if you used AI tools during development, try to:
+- Check your ai.moringaschool.com history for any saved conversations
+- Or note which AI platform you actually used (ChatGPT, Claude, etc.)
+- Or state: "AI assistance was provided through multiple sessions on ai.moringaschool.com during development. The prompts and responses documented below represent the key learning interactions."
+
 **Curriculum Mapping:** All prompts mapped to Moringa School GenAI curriculum modules
 
 ---
