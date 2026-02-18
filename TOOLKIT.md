@@ -219,7 +219,36 @@ First load takes ~30 seconds. After that, code changes auto-refresh (Fast Refres
 
 ---
 
-## 6. AI-Assisted Learning Journey
+## 6. AI Agents Utilised
+
+This project leveraged **Kiro AI** (AI-powered IDE assistant) and **ai.moringaschool.com** as the primary AI learning tools throughout the development process.
+
+**AI Tools Used:**
+
+1. **Kiro AI** - Integrated AI assistant for:
+   - Real-time code suggestions and debugging
+   - Architecture guidance and best practices
+   - Error resolution and troubleshooting
+   - Step-by-step implementation guidance
+
+2. **ai.moringaschool.com** - Moringa School's AI platform for:
+   - Structured learning prompts
+   - Curriculum-aligned guidance
+   - Conceptual understanding
+   - Technical decision-making
+
+**How AI Was Used:**
+- **Learning Phase:** AI explained mobile development concepts in terms of my existing web development knowledge
+- **Setup Phase:** AI provided step-by-step Firebase and Expo configuration guidance
+- **Development Phase:** AI assisted with implementing features, debugging errors, and optimizing code
+- **Testing Phase:** AI helped identify and resolve issues through iterative problem-solving
+
+**Productivity Impact:**
+Without AI assistance, this project would have taken an estimated 2 weeks. With AI-assisted learning, it was completed in 2 days - a **5-6x productivity gain**.
+
+---
+
+## 7. AI-Assisted Learning Journey
 
 **Platform:** Kiro AI (AI IDE Assistant) and ai.moringaschool.com  
 **Conversation Link:** AI-assisted development using Kiro AI throughout the project
@@ -347,6 +376,46 @@ The AI explained that Expo Go is a pre-built app containing standard Expo SDK mo
 This answered a question I didn't know to ask. I now understand the mobile development workflow and when different tools are needed.
 
 **Productivity Gain:** Prevented me from going down the wrong path (trying to build a development build when Expo Go was sufficient). Saved 2-3 days of unnecessary complexity.
+
+---
+
+### Prompt 7: Implementing Real-Time Chat Features
+
+**Prompt:**
+> "I need to add real-time chat functionality to my React Native app using Firebase Firestore. Guide me step-by-step on: 1. How to structure the Firestore data model for messages and conversations 2. How to use onSnapshot for real-time updates 3. How to implement unread message badges 4. How to sort conversations by most recent message. Provide complete code examples with explanations."
+
+**Curriculum Reference:**
+- **Module:** Moringa AI Prompt Engineering → Advanced Implementation → Real-Time Features
+- **Topic:** Using AI to implement complex features with multiple components
+- **Learning Objective:** Build real-time functionality using Firebase real-time listeners
+
+**AI Response Summary:**
+The AI explained the difference between one-time reads (`getDocs`) and real-time listeners (`onSnapshot`). It provided a data structure with a `chats` collection containing metadata and a `messages` subcollection. The AI showed how to set up listeners in `useEffect` with proper cleanup, implement unread counts, and sort by timestamp.
+
+**Learning Impact:**
+This was crucial for understanding real-time mobile app architecture. The AI's explanation of Firestore's real-time capabilities and how they differ from traditional REST APIs was eye-opening. Understanding the cleanup function in `useEffect` prevented memory leaks.
+
+**Productivity Gain:** Saved an estimated 8-10 hours. Real-time features are complex, and the AI provided a production-ready pattern that I could implement immediately without trial-and-error.
+
+---
+
+### Prompt 8: Handling Mobile Permissions (Camera, Location, Storage)
+
+**Prompt:**
+> "My React Native app needs camera, location, and storage permissions. Explain: 1. How permissions work differently on iOS vs Android 2. How to request permissions using Expo APIs 3. How to handle permission denials gracefully 4. What to add to app.json for each permission type. Show me the complete permission flow with error handling."
+
+**Curriculum Reference:**
+- **Module:** Moringa AI Prompt Engineering → Mobile Development → Platform-Specific Features
+- **Topic:** Using AI to understand platform differences and native APIs
+- **Learning Objective:** Implement device permissions following mobile best practices
+
+**AI Response Summary:**
+The AI explained that iOS requires runtime permission requests while Android uses a combination of manifest declarations and runtime requests. It provided code for requesting permissions using `expo-permissions` and `expo-image-picker`, showed how to check permission status before accessing features, and explained the `app.json` configuration needed for each platform.
+
+**Learning Impact:**
+Understanding the permission model was essential for mobile development. The AI's comparison of iOS vs Android permission systems helped me understand why certain features worked on one platform but not the other. The graceful error handling patterns improved user experience.
+
+**Productivity Gain:** Saved 4-6 hours of reading platform-specific documentation. The AI consolidated information from multiple sources into one actionable guide.
 
 ---
 
