@@ -44,7 +44,8 @@ npx expo start
 ## 📖 Documentation
 
 - **Complete Guide:** [PROJECT-DOCUMENTATION.md](PROJECT-DOCUMENTATION.md)
-- **Moringa Capstone:** [MORINGA-CAPSTONE-FINAL.md](MORINGA-CAPSTONE-FINAL.md)
+- **Capstone Submission:** [TOOLKIT.md](TOOLKIT.md) ⭐ (Main submission document)
+- **Alternative:** [MORINGA-CAPSTONE-IMPROVED.md](MORINGA-CAPSTONE-IMPROVED.md)
 
 ## 🔧 Setup
 
