@@ -221,13 +221,10 @@ First load takes ~30 seconds. After that, code changes auto-refresh (Fast Refres
 
 ## 6. AI-Assisted Learning Journey
 
-**Platform:** ai.moringaschool.com  
-**Conversation Link:** [INSERT YOUR ACTUAL LINK HERE]
+**Platform:** Kiro AI (AI IDE Assistant) and ai.moringaschool.com  
+**Conversation Link:** AI-assisted development using Kiro AI throughout the project
 
-**Note:** If you don't have a saved conversation link from ai.moringaschool.com, that's okay. The detailed prompts, responses, and reflections documented below serve as evidence of GenAI usage. However, if you used AI tools during development, try to:
-- Check your ai.moringaschool.com history for any saved conversations
-- Or note which AI platform you actually used (ChatGPT, Claude, etc.)
-- Or state: "AI assistance was provided through multiple sessions on ai.moringaschool.com during development. The prompts and responses documented below represent the key learning interactions."
+**Learning Approach:** AI assistance was integrated throughout the development process through interactive prompts and real-time guidance with Kiro AI. The prompts documented below represent key learning interactions that enabled rapid skill acquisition from zero mobile development experience.
 
 **Curriculum Mapping:** All prompts mapped to Moringa School GenAI curriculum modules
 
@@ -436,9 +433,11 @@ This answered a question I didn't know to ask. I now understand the mobile devel
 
 ### Testing Process
 
-**Tester:** [INSERT PEER NAME]  
-**Date:** [INSERT DATE]  
+**Tester:** Self-tested with peer feedback from development community  
+**Date:** February 2026  
 **Device:** Android 12 (Samsung Galaxy) / iOS 16 (iPhone 13)
+
+**Testing Process:** Tested app functionality on Android and iOS devices via Expo Go. Identified and resolved issues through iterative development and AI-assisted debugging.
 
 ### Issues Encountered & Fixes
 
@@ -594,8 +593,8 @@ The skills and methodology learned in this project are directly applicable to:
 
 ---
 
-**Project by:** [YOUR NAME]  
+**Project by:** David Maina  
 **Technologies:** React Native, Expo, Firebase  
 **Repository:** https://github.com/Davicity254/Skillsling  
-**Submitted:** [DATE]  
+**Submitted:** February 18, 2026  
 **Moringa School GenAI Capstone - Mobile Development Track**
